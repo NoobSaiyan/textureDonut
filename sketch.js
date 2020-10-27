@@ -50,7 +50,7 @@ const sketch = ({ context }) => {
    const normalStrength = 0.8;
    const material = new THREE.MeshStandardMaterial({
      roughness: 0.85,
-     metalnes: 0.5,
+     metalness: 0.5,
      normalScale: new THREE.Vector2(1, 2).multiplyScalar(normalStrength),
      normalMap,
      map
